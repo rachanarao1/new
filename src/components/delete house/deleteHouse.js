@@ -18,10 +18,10 @@ const DeleteHouse = () => {
   const handleDelete = (houseId) => {
     dispatch(deleteHouse(houseId))
       .then(() => {
-        console.log('House deleted successfully!');
+        //console.log('House deleted successfully!');
       })
       .catch((error) => {
-        console.error('Error deleting house:', error);
+        //console.error('Error deleting house:', error);
       });
   };
 
