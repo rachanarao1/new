@@ -30,11 +30,11 @@ const Reservation = () => {
     };
     dispatch(createReservation(reservationData))
       .then((response) => {
-        //console.log(response);
+        console.log(response);
         navigate('/my_reservations');
       })
       .catch((error) => {
-        //console.error(error);
+        console.error(error);
       });
   };
   const handleDateChange = (date) => {
